@@ -1,7 +1,6 @@
 <template>
   <div class="wrapper">
-    <div class="stars"></div>
-    <div class="twinkling"></div>
+    <div v-for="index in 30" :key="index" class="particle"></div>
     <nuxt />
   </div>
 </template>
