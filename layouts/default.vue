@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
-    <Header />
+    <div class="stars"></div>
+    <div class="twinkling"></div>
     <nuxt />
-    <ColorModePicker />
   </div>
 </template>
