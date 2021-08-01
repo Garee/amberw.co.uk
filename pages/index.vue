@@ -17,5 +17,6 @@
       <posts post-type="blog" />
     </section>
     -->
+    <happy-birthday></happy-birthday>
   </main>
 </template>
