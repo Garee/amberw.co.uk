@@ -1,5 +1,5 @@
 <template>
-  <p class="happy-birthday" v-if="isBirthday() && !playing" v-on:click="onOpenGift()">
+  <p class="happy-birthday" v-show="isBirthday() && !playing" v-on:click="onOpenGift()">
     <span class="gift">🎁</span> Open your birthday gift!
   </p>
 </template>
